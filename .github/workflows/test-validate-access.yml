@@ -7,8 +7,5 @@ jobs:
   validate-access:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
       - name: Run Validate Access JS Action
-        uses: ./.
+        uses: ifGarcia/action-error-message@main
