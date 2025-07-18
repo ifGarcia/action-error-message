@@ -1,8 +1,7 @@
 name: 'Validate Access'
-description: ''
+description: 'Valida se o usuário tem permissão para executar o workflow'
 author: '@ifGarcia'
 runs:
   using: 'node20'
-  main: 'index.js'
-  pre: |
-    npm install
+  main: 'dist/index.js'
+
