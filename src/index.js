@@ -1,5 +1,7 @@
 const core = require('@actions/core');
 
+process.exit(1)
+
 try {
   const autorizado = false;
 
