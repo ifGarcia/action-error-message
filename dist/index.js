@@ -27562,7 +27562,7 @@ try {
 
   if (!autorizado) {
     // Falha silenciosa: define falha sem mensagem
-    core.setFailed('');
+    core.setFailed('bla bla bla');
   }
 } catch (error) {
   core.setFailed(error.message);
